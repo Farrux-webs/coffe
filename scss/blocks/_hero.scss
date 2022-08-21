@@ -1,0 +1,163 @@
+.hero {
+    &__wrapper {
+        padding: 117px 0 116px 85px;
+        &__contents{
+            max-width: 493px;
+            &__heading {
+                font-family: 'Fraunces 9pt';
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 72px;
+                color: $main-color;
+                margin-bottom: 32px;
+            }
+
+            &__text {
+                font-family: 'Barlow';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: $main-color;
+                opacity: 0.8;
+                margin-bottom: 56px;
+            }
+            &__link{
+                @extend .link;
+            }
+        }
+    }
+}
+.about-us-hero{
+    &__wrapper{
+        &__contents{
+            max-width: 445px;
+            &__heading{
+                font-family: 'Fraunces 9pt';
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                color: $main-color;
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
+.subscribe-hero{
+    margin-bottom: 155px;
+    &__wrapper{
+        &__contents{
+            max-width: 485px;
+            &__heading{
+                font-family: 'Fraunces 9pt';
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 72px;
+                color: $main-color;
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 996px){
+
+    .hero {
+        &__wrapper {
+            padding: 117px 0 116px 85px;
+            background-position-x: calc(100% - 5%);
+            &__contents{
+                max-width: 398px;
+                &__heading {
+                    font-family: 'Fraunces 9pt';
+                    font-weight: 900;
+                    font-size: 48px;
+                    line-height: 48px;
+                    color: $main-color;
+                    margin-bottom: 24px;
+                }
+    
+                &__text {
+                    font-family: 'Barlow';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: $main-color;
+                    opacity: 0.8;
+                    margin-bottom: 40px;
+                }
+                &__link{
+                    @extend .link;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 696px){
+    .container{
+        margin: 0 auto;
+        max-width: 948px;
+        padding: 0 20px;
+    }
+
+    .hero {
+        &__wrapper {
+            position: relative;
+            padding: 100px 24px 99px 24px;
+            background-position-x: calc(100% - 5%);
+            overflow-x: hidden;
+            &__contents{
+                max-width: 279px;
+                margin: auto;
+                &__heading {
+                    font-family: 'Fraunces 9pt';
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: $main-color;
+                    margin-bottom: 24px;
+                }
+    
+                &__text {
+                    font-family: 'Barlow';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: $main-color;
+                    text-align: center;
+                    opacity: 0.8;
+                    margin-bottom: 40px;    
+                }
+
+                &__link{
+                   position: absolute;
+                   left: 15%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 696px){
+    .subscribe-hero{
+        margin-bottom: 120px;
+        &__wrapper{
+            &__contents{
+                max-width: 485px;
+                &__heading{
+                    font-family: 'Fraunces 9pt';
+                    text-align: center;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: $main-color;
+                    margin-bottom: 32px;
+                }
+                &__text{
+                    max-width: 279px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+    
+}

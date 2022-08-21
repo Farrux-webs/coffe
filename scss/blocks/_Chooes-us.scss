@@ -1,0 +1,263 @@
+.choose-us {
+    padding-bottom: 351px;
+    &__wrapper {
+        background: #2C343E;
+        border-radius: 10px;
+        padding: 100px 0 317px 0;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &__heading {
+            font-family: 'Fraunces 9pt';
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: $main-color;
+            margin-bottom: 32px;
+        }
+
+        &__text {
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: $main-color;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            max-width: 540px;
+            margin: 0 auto;
+        }
+
+        &__list {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            bottom: -30%;
+            list-style-type: none;
+            padding: 0 85px;   
+            margin-right: -30px; 
+
+            &__item {
+                background-color: $link-bg;
+                border-radius: 8px;
+                padding: 72px 48px 48px 47px;
+                    margin-right: 30px;
+
+                img {
+                    margin: auto;
+                    display: block;
+                    margin-bottom: 56px;
+                }
+
+                &__contents{
+                    
+                    &__heading {
+                        font-family: 'Fraunces 9pt';
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: $main-color;
+                        margin-bottom: 24px;
+                    }
+    
+                    &__text {
+                        font-family: 'Barlow';
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: $main-color;
+                        max-width: 255px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 996px){
+    .choose-us {    
+        &__wrapper {
+            background: #2C343E;
+            border-radius: 10px;
+            padding: 56px 58px 408px 58px;
+            position: relative;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            &__heading {
+                font-family: 'Fraunces 9pt';
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                text-align: center;
+                color: $main-color;
+                margin-bottom: 32px;
+            }
+    
+            &__text {
+                font-family: 'Barlow';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: $main-color;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                max-width: 540px;
+                margin: 0 auto;
+            }
+    
+            &__list {
+                position: absolute;
+                display: flex;
+                width: 90%;
+                list-style-type: none;
+                padding: 0;    
+                flex-wrap: wrap;
+                justify-content: center;
+                top: 45%;
+    
+                &__item {
+                    background-color: $link-bg;
+                    border-radius: 8px;
+                    padding: 41px 48px 41px 70px;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    margin-bottom: 24px;
+    
+                    img {
+                        margin: auto;
+                        display: block;
+                        margin-bottom: 56px;
+                        margin: 0;
+                    }
+    
+                    &__contents{
+                        width: 400px;
+                        margin-left: 55px;
+                        &__heading {
+                            font-family: 'Fraunces 9pt';
+                            font-weight: 900;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: $main-color;
+                            margin-bottom: 24px;
+                            text-align-last: left;
+                        }
+        
+                        &__text {
+                            font-family: 'Barlow';
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 25px;
+                            color: $main-color;
+                            max-width: 400px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 696px){
+    .choose-us {
+        padding-bottom: 351px;
+        &__wrapper {
+            background: #2C343E;
+            border-radius: 10px;
+            padding: 0;
+            padding: 64px 0 661px 0;
+            position: relative;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            &__heading {
+                font-family: 'Fraunces 9pt';
+                font-weight: 900;
+                font-size: 28px;
+                line-height: 28px;
+                text-align: center;
+                color: $main-color;
+                margin-bottom: 32px;
+            }
+    
+            &__text {
+                font-family: 'Barlow';
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                color: $main-color;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                max-width: 540px;
+                margin: 0 auto;
+                max-width: 279px;
+            }
+    
+            &__list {
+                position: absolute;
+                display: flex;
+                width: 100%;
+                top: 30%;
+                list-style-type: none;
+                padding: 0 24px;   
+                margin-right: -30px; 
+    
+                &__item {
+                    background-color: $link-bg;
+                    border-radius: 8px;
+                    padding: 83px 32px 48px 35px;
+                        margin-right: 30px;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0;
+                        margin-bottom: 24px;
+    
+                    img {
+                        margin: auto;
+                        display: block;
+                        margin-bottom: 56px;
+                    }
+    
+                    &__contents{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin: 0;
+                        &__heading {
+                            font-family: 'Fraunces 9pt';
+                            font-weight: 900;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: $main-color;
+                            margin: auto;
+                            margin-bottom: 24px;
+                            text-align: center;
+
+                        }
+        
+                        &__text {
+                            font-family: 'Barlow';
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 25px;
+                            text-align: center;
+                            color: $main-color;
+                            max-width: 255px;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

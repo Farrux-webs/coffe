@@ -1,0 +1,174 @@
+.footer {
+
+    &__wrapper {
+        background-color: $choose-us-bg;
+        padding: 48px 0 48px 89px;
+
+        &__nav {
+            justify-content: start;
+
+            &__brand {
+                img {
+                    filter: brightness(5);
+                    -webkit-filter: brightness(5);
+                    margin-right: 103px;
+                }
+            }
+
+            &__list {
+                margin-right: 369px;
+
+                &__item {
+                    &--link {
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+
+            &__media {
+                display: flex;
+                list-style-type: none;
+                align-items: center;
+
+                &__item {
+                    margin-right: 24px;
+
+                    &--link {
+
+                        &:hover {
+                            filter: invert(0.3) sepia(1);
+                            -webkit-filter: invert(0.3) sepia(1);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 996px) {
+    .footer {
+
+        &__wrapper {
+            padding: 54px 20px;
+            background-color: $choose-us-bg;
+    
+            &__nav {
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+    
+                &__brand {
+                    margin: 0;
+                    margin-bottom: 33px;
+                    img {
+                        margin: 0;
+                        filter: brightness(5);
+                        -webkit-filter: brightness(5);
+                    }
+                }
+    
+                &__list {
+                    margin: auto;
+                    margin-bottom: 67px;
+                    &__item {
+                        &--link {
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+    
+                &__media {
+                    display: flex;
+                    list-style-type: none;
+                    align-items: center;x
+    
+                    &__item {
+                        margin-right: 24px;
+    
+                        &--link {
+    
+                            &:hover {
+                                filter: invert(0.3) sepia(1);
+                                -webkit-filter: invert(0.3) sepia(1);
+                            }
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 696px) {
+    .footer {
+
+        &__wrapper {
+            padding: 54px 20px;
+            background-color: $choose-us-bg;
+    
+            &__nav {
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                position: relative;
+                padding-top: 60px;
+    
+                &__brand {
+                    margin: 0;
+                    margin: auto;
+                    position: absolute;
+                    top: 0;
+                    left: 15%;
+                    img {
+                        margin: 0;
+                        filter: brightness(5);
+                        -webkit-filter: brightness(5);
+                    }
+                }
+    
+                &__list {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+                    margin-bottom: 48px;
+                    &__item {
+                        margin-bottom: 24px;
+                        &--link {
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+    
+                &__media {
+                    display: flex;
+                    list-style-type: none;
+                    align-items: center;x
+    
+                    &__item {
+                        margin-right: 24px;
+    
+                        &--link {
+    
+                            &:hover {
+                                filter: invert(0.3) sepia(1);
+                                -webkit-filter: invert(0.3) sepia(1);
+                            }
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}
